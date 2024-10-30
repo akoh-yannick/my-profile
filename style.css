@@ -1,0 +1,80 @@
+body{
+	background-color: lightgray;
+	font-size: 20px;
+	font-family: ubuntu;
+	font-weight: lighter;
+
+}
+
+h1{
+	font-family: ubuntu;
+	color: teal;
+}
+a{
+	font-weight: bolder;
+
+}
+a:hover {
+	color: blue;
+}
+h2{
+	color: darkturquoise;
+	font-family: ubuntu;
+	font-size: 20px;
+
+}
+.card-white{
+	background: white;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px darkgrey;
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 30px;
+	text-align: center;
+}
+img{
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px black;
+	
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.btn-blue{
+	background-color: lightblue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: blue;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
